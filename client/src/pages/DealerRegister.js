@@ -56,6 +56,7 @@ const DealerRegister = () => {
                                     name="name"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid
                                     validation="Please provide your Name"
                                 />
@@ -68,6 +69,7 @@ const DealerRegister = () => {
                                     name="email"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid
                                     validation="Please provide your email"
                                 />
@@ -80,6 +82,7 @@ const DealerRegister = () => {
                                     name="contact"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid
                                     validation="Please provide your Contact Number"
                                 />
@@ -92,6 +95,7 @@ const DealerRegister = () => {
                                     name="password"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid
                                     validation="Please Enter your password"
                                 />
@@ -104,6 +108,7 @@ const DealerRegister = () => {
                                     name="cpassword"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid
                                     validation="Please Enter your Confirm Password"
                                 />

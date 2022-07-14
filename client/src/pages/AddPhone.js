@@ -56,6 +56,7 @@ const AddPhone = () => {
                                     name="name"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid="true"
                                     validation="Please provide Phone Name"
                                 />
@@ -68,6 +69,7 @@ const AddPhone = () => {
                                     name="company"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid="true"
                                     validation="Please provide Company Name"
                                 />
@@ -80,6 +82,7 @@ const AddPhone = () => {
                                     name="RAM"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid="true"
                                     validation="Please provide RAM detail"
                                 />
@@ -92,6 +95,7 @@ const AddPhone = () => {
                                     name="storage"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid="true"
                                     validation="Please provide Storage detail"
                                 />
@@ -104,6 +108,7 @@ const AddPhone = () => {
                                     name="camera"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid="true"
                                     validation="Please Enter Camera details"
                                 />
@@ -125,6 +130,7 @@ const AddPhone = () => {
                                     name="price"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid="true"
                                     validation="Please Enter Price"
                                 />
@@ -137,6 +143,7 @@ const AddPhone = () => {
                                     name="stock"
                                     onChange={onInputChange}
                                     required
+                                    autoComplete="off"
                                     invalid="true"
                                     validation="Please provide Stock"
                                 />

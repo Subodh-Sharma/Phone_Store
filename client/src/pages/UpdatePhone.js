@@ -48,6 +48,7 @@ const UpdatePhone = () => {
                             name="price"
                             onChange={onInputChange}
                             required
+                            autoComplete="off"
                             invalid="true"
                             validation="Please provide Updated Price"
                         />
@@ -60,6 +61,7 @@ const UpdatePhone = () => {
                             name="stock"
                             onChange={onInputChange}
                             required
+                            autoComplete="off"
                             invalid="true"
                             validation="Please provide Updated Stock"
                         />

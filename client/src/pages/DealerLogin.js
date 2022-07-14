@@ -49,6 +49,7 @@ const DealerLogin = () => {
                             name="email"
                             onChange={onInputChange}
                             required
+                            autoComplete="off"
                             invalid="true"
                             validation="Please provide your email"
                             />
@@ -61,6 +62,7 @@ const DealerLogin = () => {
                             name="password"
                             onChange={onInputChange}
                             required
+                            autoComplete="off"
                             invalid="true"
                             validation="Please Enter your password"
                             />
