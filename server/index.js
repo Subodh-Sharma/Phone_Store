@@ -33,12 +33,12 @@ if(process.env.NODE_ENV==="production"){
 }
 
 //-------------------Deployment code---------------------//
-
+const port = process.env.PORT || 8080;
 const url = process.env.DBURL;
 
 mongoose.connect(url).then(()=>{
-    app.listen(process.env.PORT,()=>{
-        console.log(`Listening at port ${process.env.PORT}`);
+    app.listen(port,()=>{
+        console.log(`Listening at port ${port}`);
     })
 }).catch((err)=>{
     console.log(err)
